@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="blue">#0000ff</color>
+    <color name="less_white">#fcfcfc</color>
+    <color name="black">#000000</color>
+    <color name="actionbar_background_start">#31A2FF</color>
+    <color name="grey">#3b3b3b</color>
+    <color name="getmoregrey">#45484D</color>
+    
+</resources>

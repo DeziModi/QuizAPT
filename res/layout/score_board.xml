@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <LinearLayout 
+       xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/header_gradient"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/logo"
+             />
+    </LinearLayout>
+   <LinearLayout
+            android:id="@+id/basicdetail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            > 
+             
+             <TextView
+                 android:id="@+id/lbltapfordetail"
+                   android:textColor="#000000"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:gravity="center_horizontal"
+                   android:textStyle="bold"
+                   android:textSize="25sp"
+                   android:text="Your score is:" />
+             
+            </LinearLayout>
+            <LinearLayout 
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_margin="5dp" >
+               
+                <TextView
+                    style="@style/TitleView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="Questions attempted: "
+                    />
+            
+            </LinearLayout>
+                      
+            <LinearLayout 
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_margin="5dp" >
+               
+                <TextView
+                    style="@style/TitleView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="Correct answer: "
+                    />
+            
+            </LinearLayout>
+            <LinearLayout 
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_margin="5dp" >
+               
+                <TextView
+                    style="@style/TitleView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="Incorrect answer: "
+                    />
+            
+            </LinearLayout>
+            <LinearLayout 
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_margin="5dp" >
+               
+                <TextView
+                    style="@style/TitleView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="Total score: "
+                    />
+            
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:paddingTop="5dip" 
+		android:paddingBottom="5dip"
+		android:gravity="center_horizontal">
+
+		<Button
+		    android:id="@+id/homeBtn"
+		    android:layout_width="118dp"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/button_select"
+		    android:gravity="center"
+		    android:padding="15dip"
+		    android:text="Home"
+		    android:textColor="#ffffff" />
+		
+	</LinearLayout>
+            </LinearLayout>
+            

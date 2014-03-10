@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.informationworks.quizapplication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" >
+        <activity
+            android:name="in.informationworks.quizapplication.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Entry for RegisterActivity.class -->
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register New Account" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizapplication.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizapplication.CategoryActivity"
+            android:label="@string/title_activity_categories" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizapplication.SubcategoryActivity"
+            android:label="@string/title_activity_subcategory" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizapplication.QuizquestionActivity"
+            android:label="@string/title_activity_quizquestion" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizapplication.ScoreBoardActivity"
+            android:label="@string/title_activity_score_board" >
+        </activity>
+    </application>
+
+</manifest>
