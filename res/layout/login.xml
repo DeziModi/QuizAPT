@@ -30,46 +30,58 @@
         </LinearLayout>
      
         <LinearLayout
-          
           android:orientation="vertical"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:padding="10dip"
           android:layout_below="@id/header">
+            
           <!--  Email Label -->
+          
           <TextView android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#372c24"
                 android:text="Email"/>
-          <EditText android:id="@+id/email"
+          
+          <EditText 
+              	android:id="@+id/email_txt"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
                 android:layout_marginBottom="20dip"
                 android:singleLine="true"/>
+          
           <!--  Password Label -->
-          <TextView android:layout_width="fill_parent"
+          
+          <TextView 
+              	android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#372c24"
                 android:text="Password"/>
-          <EditText android:id="@+id/password"
+          
+          <EditText 
+              	android:id="@+id/password_txt"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
                 android:singleLine="true"
                 android:password="true"/>
+          
           <!-- Login button -->
-          <Button android:id="@+id/btnLogin"
+          
+          <Button 
+              	android:id="@+id/btn_Login"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dip"
                 android:text="Login"/>
+          
           <!-- Link to Registration Screen -->
-              <Button android:id="@+id/btnSignup"
+              <Button android:id="@+id/btn_newuser"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dip"
-                android:text="Sign up"/>
+                android:text="new user?"/>"
          
  
         </LinearLayout>

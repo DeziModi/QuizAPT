@@ -36,35 +36,38 @@ public final class R {
         public static final int green_button=0x7f020003;
         public static final int ic_launcher=0x7f020004;
         public static final int image=0x7f020005;
-        public static final int logo=0x7f020006;
-        public static final int next=0x7f020007;
-        public static final int red_button=0x7f020008;
+        public static final int iwlogorbg=0x7f020006;
+        public static final int logo=0x7f020007;
+        public static final int next=0x7f020008;
+        public static final int red_button=0x7f020009;
     }
     public static final class id {
-        public static final int action_settings=0x7f060017;
-        public static final int basicdetail=0x7f060013;
-        public static final int btnLogin=0x7f060008;
-        public static final int btnRegister=0x7f060011;
-        public static final int btnSignup=0x7f060009;
+        public static final int ConfirmPassword_txt=0x7f060010;
+        public static final int QuizName=0x7f060009;
+        public static final int action_settings=0x7f060019;
+        public static final int basicdetail=0x7f060012;
+        public static final int btn_Login=0x7f060007;
+        public static final int btn_Singup=0x7f060011;
+        public static final int btn_newuser=0x7f060008;
+        public static final int catapplogo=0x7f060015;
         public static final int category=0x7f060002;
-        public static final int email=0x7f060006;
+        public static final int email_txt=0x7f060005;
         public static final int footer=0x7f060001;
         public static final int header=0x7f060000;
-        public static final int homeBtn=0x7f060015;
+        public static final int homeBtn=0x7f060014;
         public static final int imageView1=0x7f06000b;
-        public static final int lbltapfordetail=0x7f060014;
-        public static final int link_to_login=0x7f060012;
-        public static final int listView1=0x7f060003;
-        public static final int logoutBtn=0x7f060005;
-        public static final int nextBtn=0x7f06000d;
-        public static final int password=0x7f060007;
-        public static final int playBtn=0x7f060004;
-        public static final int prvBtn=0x7f06000c;
-        public static final int questionText=0x7f06000a;
-        public static final int reg_email=0x7f06000f;
-        public static final int reg_fullname=0x7f06000e;
-        public static final int reg_password=0x7f060010;
-        public static final int subcategory=0x7f060016;
+        public static final int iwlogo=0x7f060016;
+        public static final int lbltapfordetail=0x7f060013;
+        public static final int listView1=0x7f060018;
+        public static final int logoutBtn=0x7f060004;
+        public static final int nextBtn=0x7f06000e;
+        public static final int password_txt=0x7f060006;
+        public static final int playBtn=0x7f060003;
+        public static final int prvBtn=0x7f06000d;
+        public static final int question=0x7f06000a;
+        public static final int radioGroup=0x7f06000c;
+        public static final int reg_fullname=0x7f06000f;
+        public static final int subcategory=0x7f060017;
     }
     public static final class layout {
         public static final int category=0x7f030000;
@@ -74,7 +77,8 @@ public final class R {
         public static final int quizquestions=0x7f030004;
         public static final int register=0x7f030005;
         public static final int score_board=0x7f030006;
-        public static final int subcategory=0x7f030007;
+        public static final int splash=0x7f030007;
+        public static final int subcategory=0x7f030008;
     }
     public static final class menu {
         public static final int categories=0x7f090000;
@@ -82,7 +86,8 @@ public final class R {
         public static final int quizquestion=0x7f090002;
         public static final int register=0x7f090003;
         public static final int score_board=0x7f090004;
-        public static final int subcategory=0x7f090005;
+        public static final int splash=0x7f090005;
+        public static final int subcategory=0x7f090006;
     }
     public static final class string {
         public static final int action_settings=0x7f070001;
@@ -90,6 +95,7 @@ public final class R {
         public static final int back=0x7f070006;
         public static final int cat1=0x7f07000c;
         public static final int category=0x7f070002;
+        public static final int confirmpasswordhint=0x7f07000f;
         public static final int email_hint=0x7f070003;
         public static final int hello_world=0x7f07000b;
         public static final int passwordhint=0x7f070004;
@@ -99,6 +105,7 @@ public final class R {
         public static final int title_activity_quizquestion=0x7f07000d;
         public static final int title_activity_register=0x7f070005;
         public static final int title_activity_score_board=0x7f07000e;
+        public static final int title_activity_splash=0x7f070010;
         public static final int title_activity_subcategory=0x7f07000a;
     }
     public static final class style {

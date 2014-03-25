@@ -11,7 +11,6 @@ import in.informationworks.quizapplication.HomeActivity;
 import in.informationworks.quizapplication.db.DBHelper;
 import in.informationworks.quizapplication.db.DataAccess;
 
- 
 public class LoginActivity extends Activity implements OnClickListener {
 	EditText edtxtEmail;
 	EditText edtxtPassword;
@@ -21,46 +20,43 @@ public class LoginActivity extends Activity implements OnClickListener {
 	String password;
 	DBHelper DB = null;
 	DataAccess dao;
+	
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // setting default screen to login.xml
-        btnLogin = (Button)findViewById(R.id.btnLogin);
-        edtxtEmail = (EditText)findViewById(R.id.email);
-		edtxtPassword = (EditText)findViewById(R.id.password);
+        setContentView(R.layout.login);
+        
+        btnLogin = (Button)findViewById(R.id.btn_Login);
+        edtxtEmail = (EditText)findViewById(R.id.email_txt);
+		edtxtPassword = (EditText)findViewById(R.id.password_txt);
 		
         btnLogin.setOnClickListener(this);
+        Button btn_newuser=(Button) findViewById(R.id.btn_newuser);
+        btn_newuser.setOnClickListener(this);
         dao = new DataAccess(this);
-        setContentView(R.layout.login);
-        Button btnLogin = (Button) findViewById(R.id.btnLogin);
-        btnLogin.setOnClickListener(this);
-        Button btnSignup = (Button) findViewById(R.id.btnSignup);
-        btnSignup.setOnClickListener(this);
-      
+        
     }
 
-    @Override
-	public void onClick(View v) {
-    	Intent i;
+	@Override
+	public void onClick(View v)
+	{
+		Intent i;
 		switch(v.getId()) {
-		case R.id.btnLogin:
+		case R.id.btn_Login:
 			
 			if (validateLoginInput()) {
 				validateLogin(email, password);
 			}
 			break;
-		case R.id.btnSignup:
+		
+		case R.id.btn_newuser:
 			i=new Intent(this,RegisterActivity.class);
 			startActivity(i);
 			break;
-		
-
 		}
-		
-	
+			
 	}
 	
-
 	/*
 	 Checks if Email id and password are entered or not.
 	 */

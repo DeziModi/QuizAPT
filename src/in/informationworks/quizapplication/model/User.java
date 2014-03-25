@@ -1,6 +1,7 @@
 package in.informationworks.quizapplication.model;
 
 public class User {
+
 	private int id;
 	private String name;
 	private String email;
@@ -22,7 +23,4 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
-
 }
- 

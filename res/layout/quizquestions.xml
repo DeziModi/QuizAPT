@@ -25,6 +25,19 @@
                 android:layout_marginLeft="10dp"
                 android:src="@drawable/logo" />
         </LinearLayout>
+        <LinearLayout
+    	    android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:paddingLeft="@dimen/activity_horizontal_margin"
+    		android:paddingRight="@dimen/activity_horizontal_margin"
+    		android:orientation="vertical">
+    
+    		<TextView
+        		android:id="@+id/QuizName"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="Large Text"
+        		android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -34,7 +47,7 @@
             android:paddingTop="5dip" >
 
             <TextView
-                android:id="@+id/questionText"
+                android:id="@+id/question"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dip"
@@ -58,27 +71,11 @@
             android:paddingTop="5dip" >
 
             <RadioGroup
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                >
-
-                <RadioButton
-                    android:text="South India"
-                    android:textColor="#000000" />
-
-                <RadioButton
-                    android:text="North India"
-                    android:textColor="#000000" />
-
-                <RadioButton
-                    android:text="East India"
-                    android:textColor="#000000" />
-
-                <RadioButton
-                    android:text="West India"
-                    android:textColor="#000000" />
+                android:id="@+id/radioGroup"
+              	android:layout_width="wrap_content"
+       			android:layout_height="wrap_content" >
             </RadioGroup>
+        </LinearLayout>
         </LinearLayout>
 
         <LinearLayout

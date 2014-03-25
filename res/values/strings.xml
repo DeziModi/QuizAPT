@@ -16,5 +16,7 @@
     <string name="cat1">Choose a Subcategory</string>
     <string name="title_activity_quizquestion">Quizquestion</string>
     <string name="title_activity_score_board">Score Board Activity</string>
+    <string name="confirmpasswordhint">confirm Password</string>
+    <string name="title_activity_splash">SplashActivity</string>
 
 </resources>
